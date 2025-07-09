@@ -13,7 +13,7 @@ test.describe('Veeam Task Flow', () => {
     await portal.loadVeeamMainPage();
   });
 
-  test('should navigate to R&D Forum and register a new user with public mail to get an error', async ({ page, testData }) => {
+  test('should get an error after user registration in the R&D Forum', async ({ page, testData }) => {
     await portal.openLink('Support', 'R&D Forums');
     await forum.register();
     await forum.approveForumTerms();
