@@ -30,9 +30,6 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    // registrationUserName: process.env.USER_NAME || 'TestUser',
-    // registrationUserPassword: process.env.USER_PASSWORD || 'TestPassword',
-    // registrationUserEmail: process.env.USER_EMAIL || 'testuser@example.com'
   },
 
   /* Configure projects for major browsers */
