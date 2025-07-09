@@ -10,8 +10,8 @@ export type TestData = {
 export const test = base.extend<TestData>({
     testData: {
         registrationUserName: process.env.USER_LOGIN || 'TestUser',
-        registrationUserPassword: process.env.USER_PASSWORD || 'TestPassword',
-        registrationUserEmail: process.env.USER_MAIL || 'test@example.com'
+        registrationUserPassword: process.env.USER_PASSWORD || 'TestUser',
+        registrationUserEmail: process.env.USER_MAIL || 'inreviewuser@gmail.com'
     }
 });
 
